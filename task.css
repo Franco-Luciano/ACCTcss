@@ -1,0 +1,501 @@
+/* Task 1*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column-start: 3
+}
+
+/* Task 2*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+#poison {
+    grid-column-start: 5
+  }
+
+/* Task 3*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column-start: 1;
+  grid-column-end: 4
+  }
+
+/* Task 4*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column-start: 5;
+    grid-column-end: 2
+  }
+
+/* Task 5*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column-start: 1;
+    grid-column-end: -2
+  }
+
+/* Task 6*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #poison {
+    grid-column-start: -3
+  }
+
+/* Task 7*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column-start: 2;
+    grid-column-end: span 2
+  }
+
+/* Task 8*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column-start: 1;
+    grid-column-end: span 5
+  }
+
+/* Task 9*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column-start: span 3; 
+    grid-column-end: 6;
+  }
+
+/* Task 10*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column: 4/6
+  }
+
+/* Task 11*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column: 2 / span 3;
+  }
+
+/* Task 12*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-row-start: 3
+  }
+
+/* Task 13*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-row: 3/6
+  }
+
+/* Task 14*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #poison {
+    grid-column:2;
+    grid-row: 5
+  }
+
+/* Task 15*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column: 2/6;
+    grid-row: 1/6
+  }
+
+/* Task 16*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-area: 1/2/4/6  
+  }
+
+/* Task 17*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water-1 {
+  grid-area: 1 / 4 / 6 / 5;
+}
+
+#water-2 {
+grid-area: 2 / 3 / 5 / 6;
+}
+
+/* Task 18*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  .water {
+    order: 0;
+  }
+  
+  #poison {
+  order: 1
+  }
+
+/* Task 19*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  .water {
+    order: 0;
+  }
+  
+  .poison {
+  order: -1
+  }
+
+/* Task 20*/
+#garden {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+/* Task 21*/
+#garden {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+/* Task 22*/
+#garden {
+    display: grid;
+    grid-template-columns: 100px 3em 40%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+
+/* Task 23*/
+#garden {
+    display: grid;
+    grid-template-columns: 0.32fr 1.6fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+
+/* Task 24*/
+#garden {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  
+  #water {
+    grid-area: 1 / 1 / 6 / 2;
+  }
+  
+  #poison {
+    grid-area: 1 / 5 / 6 / 6;
+  }
+
+/* Task 25*/
+#garden {
+    display: grid;
+    grid-template-columns: 75px 1.5fr 1fr;
+    grid-template-rows: 100%;
+  }
+
+/* Task 26*/
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50px 0px 0px 0px 1fr;
+  }
+  
+  #water {
+    grid-column: 1 / 6;
+    grid-row: 5 / 6;
+  }
+
+/* Task 27*/
+#garden {
+    display: grid;
+    grid-template: 60% 50% / 200px;
+  }
+  
+  #water {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+/* Task 28*/
+#garden {
+    display: grid;
+    grid-template: 1fr 50px/ 1fr 80%
+  }
+
+/*================================================================================================================================*/
+/*================================================================================================================================*/
+/*================================================================================================================================*/
+                                                /* CSS FLEXBOX */
+/*================================================================================================================================*/
+/*================================================================================================================================*/
+
+/*Task1*/
+#pond {
+    display: flex;
+  justify-content: end;
+  }
+  
+/*Task2*/
+#pond {
+    display: flex;
+  justify-content: center;
+  }
+
+/*Task3*/
+#pond {
+    display: flex;
+  justify-content: space-around
+  }
+
+/*Task4*/
+#pond {
+    display: flex;
+  justify-content: space-between
+  }
+
+/*Task5*/
+#pond {
+    display: flex;
+  align-items: end;
+  }
+
+/*Task6*/
+#pond {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+/*Task7*/
+#pond {
+    display: flex;
+  align-items: end;
+  justify-content: space-around;
+  }
+
+/*Task8*/
+#pond {
+    display: flex;
+  flex-direction: row-reverse; 
+  }
+
+/*Task9*/
+#pond {
+    display: flex;
+  flex-direction: column;
+  }
+
+/*Task10*/
+#pond {
+    display: flex;
+  flex-direction: row-reverse;
+  justify-content: start
+  }
+
+/*Task11*/
+#pond {
+    display: flex;
+  flex-direction: column;
+  justify-content: end
+  }
+
+/*Task12*/
+#pond {
+    display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between
+  }
+
+/*Task13*/
+#pond {
+    display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: row-reverse
+  }
+
+/*Task14*/
+#pond {
+    display: flex;
+  }
+  
+  .yellow {
+  order: 1
+  }
+
+/*Task15*/
+#pond {
+    display: flex;
+  }
+  
+  .red {
+  order: -3
+  }
+
+/*Task16*/
+#pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  align-self: end
+  }
+
+/*Task17*/
+#pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  order: 1;
+  align-self: end
+  }
+
+/*Task18*/
+#pond {
+    display: flex;
+  flex-wrap: wrap
+  }
+
+/*Task19*/
+#pond {
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  }
+
+/*Task20*/
+#pond {
+    display: flex;
+  flex-flow: wrap column
+  }
+
+/*Task21*/
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline
+  }
+
+/*Task22*/
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end
+  }
+
+/*Task23*/
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  }
+
+/*Task24*/
+#pond {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-content: space-between;
+    justify-content: center; 
+}
+.yellow { 
+    order:1 
+}
+
